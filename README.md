@@ -2,13 +2,19 @@
 
 *Primer moneda virtual mineable usando el estándar SLP y la prueba de trabajo del contrato covenant_1 introducido por* **[mistcoin.org](https://mistcoin.org)**
 
-## Introduction
+## Ambiente de minería de BTCL
+
+* **BTCL id:** `20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a`
+
+## Introduction a la minería con el Minero Mist
 
 Esta es una continuación de la versión 0.0.2 del minero que se usa en Mistcoin www.mistcoin.org
 
-## Configuración del Minero
+## Configuración del Minero Mist en Windows
 
-### 1. 
+### 1.Instala los Paquetes
+
+- 
 
 click Launchpad icon in the Dock
 
