@@ -4,7 +4,7 @@
 
 ## Ambiente de minería de BTCL
 
-* **BTCL id:** `20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a`
+* **BTCL id:** [`20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a`](https://simpleledger.info/token/20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a)
 
 ## Introduction a la minería con el Minero Mist
 
