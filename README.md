@@ -1,17 +1,14 @@
-# Mist
+# BTCL Bitcoin Latino
 
-*A mineable SLP token using a proof-of-work covenant contract*
-
-[mistcoin.org](https://mistcoin.org)
+*Primer moneda virtual mineable usando el estándar SLP y la prueba de trabajo del contrato covenant_1 introducido por* **[mistcoin.org](https://mistcoin.org)**
 
 ## Introduction
 
-This is a continuation of the 0.0.2 Miner that is on mistcoin.org
+Esta es una continuación de la versión 0.0.2 del minero que se usa en Mistcoin www.mistcoin.org
 
+## Configuración del Minero
 
-## Setup Instructions (Mac)
-
-### 1. Open a terminal
+### 1. 
 
 click Launchpad icon in the Dock
 
