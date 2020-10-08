@@ -1,6 +1,6 @@
 # BTCL Bitcoin Latino
 
-*Primer moneda virtual mineable usando el estándar SLP y la prueba de trabajo del contrato covenant_1 introducido por* **[mistcoin.org](https://mistcoin.org)**
+*Primer moneda virtual mineable de Latinoamérica usando el estándar SLP y la prueba de trabajo del contrato covenant_1 introducido por* **[mistcoin.org](https://mistcoin.org)**
 
 ## Ambiente de minería de BTCL
 
