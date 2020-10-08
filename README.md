@@ -16,9 +16,9 @@
 
     - **MINER_DIFFICULTY_V1**=`3`
 
-    - **TOKEN_START_BLOCK_V1**=`645065`
+    - **TOKEN_START_BLOCK_V1**=`655223`
 
-    - **`TOKEN_ID_V1`**=`"bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"`
+    - **`TOKEN_ID_V1`**=`"20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a"`
 
 ## Introduction a la minería con el Minero Mist
 
