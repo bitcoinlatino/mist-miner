@@ -4,7 +4,7 @@
 
 ## Ambiente de minería de BTCL
 
-**BTCL id:** [`20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a`](https://simpleledger.info/token/20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a)
+* **BTCL id:** [`20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a`](https://simpleledger.info/token/20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a)
 
 * **BTCL contrato covenant script:**
 
@@ -12,13 +12,13 @@
 
     - `TOKEN_INIT_REWARD_V1`=800000000
 
-- **TOKEN_HALVING_INTERVAL_V1**=4320
+    - **TOKEN_HALVING_INTERVAL_V1**=4320
 
-- **MINER_DIFFICULTY_V1**=3
+    - **MINER_DIFFICULTY_V1**=3
 
-- **TOKEN_START_BLOCK_V1**=645065
+    - **TOKEN_START_BLOCK_V1**=645065
 
-- **`TOKEN_ID_V1`**="bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
+    - **`TOKEN_ID_V1`**="bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
 
 ## Introduction a la minería con el Minero Mist
 
