@@ -67,13 +67,13 @@ Este tutorial es para empezar a minar BTCL en windows.
 
     - Dale **`click derecho`** en la dirección de **`index 0`** y luego click en **`clave privada`** en la subventana que se abre.
     
-    - Introduce la controseña de tu wallet y copia la clave privada en la ventana que se abre.
+    - Introduce la contraseña de tu wallet y copia la **`clave privada`** en la ventana que se abre.
     
     - Ve hasta la Unidad C de la PC y abre la carpeta **`mist-miner`**.
     
-    - Dale **`click derecho`** a el archivo **`.env`** (ojo no en example.env) y dale editar con un editor de texto como **[`Notepad++`](https://notepad-plus-plus.org/downloads/).
+    - Dale **`click derecho`** a el archivo **`.env`** (ojo no en example.env) y dale editar con un editor de texto como **[`Notepad++`](https://notepad-plus-plus.org/downloads/).**
     
-    - 
+    -  
 
 `open -a TextEdit .env`
 
