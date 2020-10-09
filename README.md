@@ -138,33 +138,17 @@ Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o
 
 ### 9. Configurando el Fastminer
 
-Aseguráte de tener la versión reciente de **`C++17-capable compiler y cmake`**. Los siguientes comandos asumen que **`cmake`** genera los archivos, sin embargo busca en la carpeta **`fastmine`** de esta repo el archivo **`fastmine_1.zip`** y descargalo y descoprime el 
+Aseguráte de tener la versión reciente de **`C++17-capable compiler y cmake`**. Los siguientes comandos asumen que **`cmake`** genera los archivos, sin embargo busca en la carpeta **`fastmine`** de esta repo el archivo **[`fastmine_1.zip`](https://github.com/bitcoinlatino/mist-miner/blob/master/fastmine/fastmine_1.zip)**, descargalo y descomprimelo en la **`subcarpeta fastmine`** del minero que tienes instalado en el disco local C **`mist-miner`** de tu PC.
 
 * cd fastmine
     
     $ cmake . && make
     $ cd ..
 
-Then set in `.env`
+* Luego configura el archivo **`.env`** pasando fastmine a **YES**
 
-`USE_FASTMINE="yes"`
+    * **`USE_FASTMINE="yes"`**
+  
+### 10. También BTCL puede ser minado en un teléfono android
 
-**Note:** In order for fast mining to work, the expectation is that the `fastmine` executable will be present in the `fastmine/` subdirectory.
-
-## Setup Instructions (Docker; cross-platform)
-
-Clone the repo as per above instructions, setup your .env file and fund your wallet in the same way. No need to install Homebrew, NodeJS, npm modules etc.
-
-### Install Docker
-
-https://docs.docker.com/engine/install/
-
-### Build Docker Image
-
-Run `docker build -t mistminer .` from the root of the repo.
-
-### Run miner
-
-Run `docker run mistminer` to run the miner in a Docker container. `docker ps` will show you all running containers.
-
-Note: Unsure how to get this playing well with zeromq running on the host machine; I've only run successfully without using zmq.
+* Se ha hecho un fork del repositorio de **[`Maze Mining`](https://github.com/bitcoinlatino/mining)** para minar con el **`BCHD Miner`** y con la **[APP UserLand](https://play.google.com/store/apps/details?id=tech.ula&hl=es)**.
