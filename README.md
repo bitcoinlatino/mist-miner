@@ -73,13 +73,17 @@ Este tutorial es para empezar a minar BTCL en windows.
     
     - Dale **`click derecho`** a el archivo **`.env`** (ojo no en example.env) y dale editar con un editor de código. Si no tienes uno instalado, te recomiendo que descargues **[`Notepad++`](https://notepad-plus-plus.org/downloads/).**
     
-    - Pega tu clave privada en WIF dentro de las comillas. Debe verse de la siguiente manera: `WIF="Kansadjasd767263764..."`
+    - Pega tu clave privada en WIF dentro de las comillas. Debe verse de la siguiente manera: **`WIF="Kansadjasd767263764..."`**
     
     - No modifiques nada más, guarda los cambios y cierra el editor.
 
-### 8. Fund the Mining Wallet
+### 8. Coloca Fondos en BCH en la wallet de minería
 
-Inside Electron Cash SLP again, right click the address at index 0 again and click on "Copy address"
+Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o fee por cada bloque minado exitosamente. La comisión es
+
+* Nuevamente dentro de la **`Electron Cash SLP`**, **`click derecho`** en la dirección de **`index 0`** y luego escoge **`copiar dirección`** de la ventana que se abre.
+
+* 
 
 Open a different wallet which has BCH available using Electron Cash SLP
 
