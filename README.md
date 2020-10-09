@@ -59,17 +59,21 @@ Este tutorial es para empezar a minar BTCL en windows.
 
 ### 6. Configura la Wallet para Minar BTCL en la `Electron Cash SLP Edition`
 
-* Abre la **[`Electron Cash SLP Edition`](https://simpleledger.cash/project/electron-cash-slp-edition/)** y crea una wallet normal; puedes colocarle un nombre relacionado con la moneda que vas a minar que es Bitcoin Latino BTCL. Recuerda que debes asegurarte de guardar tu **`frase semilla de 12 palabras`** ya que como todas las wallet de bitcoin cash y SLP esta es de no custodia.
+* Descarga la **[`Electron Cash SLP Edition`](https://simpleledger.cash/project/electron-cash-slp-edition/)** y crea una wallet normal; puedes colocarle un nombre relacionado con la moneda que vas a minar que es Bitcoin Latino BTCL. Recuerda que debes asegurarte de guardar tu **`frase semilla de 12 palabras`** ya que como todas las wallet de bitcoin cash y SLP esta es de no custodia.
 
+* Guarda la carpeta de la Electron Cash en la Unidad C de la PC.
 
+* Abre la wallet recién creada y dale click al submenú **`Direcciones`**.
 
-Inside the wallet Click on the "Addresses" pane
-
-Right click on the index 0 address and click on "Private key"
-
-Copy the Private key (Command+c) (⌘ key) 
-
-Open the `.env` file (not example.env) by typing this into the terminal:
+    - Dale **`click derecho`** en la dirección de **`index 0`** y luego click en **`clave privada`** en la subventana que se abre.
+    
+    - Introduce la controseña de tu wallet y copia la clave privada en la ventana que se abre.
+    
+    - Ve hasta la Unidad C de la PC y abre la carpeta **`mist-miner`**.
+    
+    - Dale **`click derecho`** a el archivo **`.env`** (ojo no en example.env) y dale editar con un editor de texto como **[`Notepad++`](https://notepad-plus-plus.org/downloads/).
+    
+    - 
 
 `open -a TextEdit .env`
 
