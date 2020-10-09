@@ -34,7 +34,7 @@ Este tutorial es para empezar a minar BTCL en windows.
 - Descarga e installa **[Git](https://gitforwindows.org/)**
 - Descarga e installa **[Microsoft Visual Studio Community 2019](https://visualstudio.microsoft.com/es/)** con los paquetes por defecto **`Node.js`** y **`C++`** y con los componentes **`CMake, MSVC v.140 - VS 2015`**. Si el minero no funciona con estos paquetes, entonces necesita instalar componentes adicionales como **`MSVC v.142 VS 2019, C++ ATL, C++/CLI, Java Script Diagnostic y Python Panel`**.
 
-### 4. Descarga el mist-miner
+### 2. Descarga el mist-miner
 
 * Abre la terminal **`PowerShell de Windows`** y accede a la Unidad de disco local C mediante el comando:
     - **`cd ..`** luego *Enter*.
@@ -46,7 +46,7 @@ Este tutorial es para empezar a minar BTCL en windows.
     - Esto descargará el **mist-miner** en la Unidad C de la PC.
 
 
-### 5. Crea el archivo .env
+### 3. Crea el archivo .env
 
 * Ve a la carpeta del minero que recién descargaste, sin salir del símbolo del sistema, escribiendo el siguiente comando:
 
@@ -57,7 +57,7 @@ Este tutorial es para empezar a minar BTCL en windows.
     - **`cp example.env .env`** luego *Enter*. Esto creará el **`archivo .env`** en la carpeta del minero para que configures la wallet donde recibirás los BTCL que comiences a minar.
 
 
-### 6. Configura la Wallet para Minar BTCL en la `Electron Cash SLP Edition`
+### 4. Configura la Wallet para Minar BTCL en la `Electron Cash SLP Edition`
 
 * Descarga la **[`Electron Cash SLP Edition`](https://simpleledger.cash/project/electron-cash-slp-edition/)** y crea una wallet normal; puedes colocarle un nombre relacionado con la moneda que vas a minar que es Bitcoin Latino BTCL. Recuerda que debes asegurarte de guardar tu **`frase semilla de 12 palabras`** ya que como todas las wallet de bitcoin cash y SLP esta es de no custodia.
 
@@ -77,7 +77,7 @@ Este tutorial es para empezar a minar BTCL en windows.
     
     - No modifiques nada más, guarda los cambios y cierra el editor.
 
-### 8. Coloca Fondos en BCH en la wallet de minería
+### 5. Coloca Fondos en BCH en la wallet de minería
 
 Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o fee por cada bloque minado exitosamente de BTCL. La comisión es de **`0.00001324`** por cada bloque minado de BTCL, que resulta de la diferencia de **`0.00001870-0.00000546`**.
 
@@ -105,55 +105,40 @@ Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o
     simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
     ```
 
-In the "BCH Amount" field put some small amount of BCH (like 0.0001), this wont be used but was needed for me to make it work
+* En el campo **`BCH Amount`** coloca una pequeña cantidad de BCH (0.00001000 estará bien).
 
-Click "Preview" to ensure that there are no mistakes and that the format was correct.
-
-Then click "Sign" and then "Broadcast"
-
-You can now close this wallet.
+* Asegurate de no tener errores y luego dale click en **`Enviar`**.
 
 ### 6. Instala las dependencias para correr el minero
 
-
-* Sin salir de la terminal **`PowerShell de Windows`** copia y pega el siguiente comando:
+* Vuelve a la terminal **`PowerShell de Windows`** copia y pega los siguientes comandos:
 
     - **`npm install`** luego *Enter*.
+    
+    - **`npm i`** luego *Enter*.
+    
+     - **`npm run tsc`** luego *Enter*.
+     
+     - **`npm install npm@latest -g`** luego *Enter*.
 
-### 9. Start Mining
+### 7. Incia la minería de BTCL
 
-Inside the terminal type:
+* Dentro de la terminal del **`PowerShell`** escribe el comando:
 
-`npm start`
+    * **`npm start`** para inciar el minero.
+    
+    * Si todo lo hiciste bien pronto comenzarás a recibir las recompensas de bloque por minar BTCL.
 
-This will build the application and begin mining Mist!
+### 8. Actualizando el Minero Mist
 
-### 10. Updating the Miner
+* Si hay alguna actualización en el futuro, corre los siguientes comandos para mantener tu minero actualizado:
 
-If there are updates in the future you can update by running:
+    * **`git pull origin master`**
 
-`git pull origin master`
 
-## Block Notifier
+### 9. Configurando el Fastminer
 
-### ZMQ
-
-You need a full node for this to connect to, with hashblock on port 28332.
-
-IE your `bitcoin.conf` should have this:
-
-`zmqpubhashblock=tcp://127.0.0.1:28332`
-
-Install zeromq package:
-
-`npm i zeromq@4.6.0`
-
-In `.env` set `BLOCK_NOTIFIER` to `zmq`
-
-### fastminer
-
-Ensure you have a recent C++17-capable compiler and `cmake`. The below assumes `cmake` generates Makefiles, however you can use any generator such as `Ninja`, etc, so long as you place the compiled binary in the `fastmine/` subfolder of this project when done.
-
+Aseguráte de tener la versión reciente de **`C++17-capable compiler y cmake`**. Los siguientes comandos asumen que **`cmake`** genera los archivos, 
     $ cd fastmine
     $ cmake . && make
     $ cd ..
