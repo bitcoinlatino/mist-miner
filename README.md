@@ -67,7 +67,7 @@ Este tutorial es para empezar a minar BTCL en windows.
 
     - Dale **`click derecho`** en la dirección de **`index 0`** y luego click en **`clave privada`** en la subventana que se abre.
     
-    - Introduce la contraseña de tu wallet y copia la **`clave privada`** de la ventana que se abre. Las clave privada empeiza con **K** o **L**.
+    - Introduce la contraseña de tu wallet y copia la **`clave privada`** de la ventana que se abre. Las clave privada empieza con **K** o **L**.
     
     - Ve hasta la Unidad C de la PC y abre la carpeta **`mist-miner`**.
     
@@ -79,7 +79,7 @@ Este tutorial es para empezar a minar BTCL en windows.
 
 ### 5. Coloca Fondos en BCH en la wallet de minería
 
-Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o fee por cada bloque minado exitosamente de BTCL. La comisión es de **`0.00001324`** por cada bloque minado de BTCL, que resulta de la diferencia de **`0.00001870-0.00000546`**.
+Para recibir la recompensa de la minería de BTCL necesitas pagar una comisión o fee por cada bloque minado exitosamente de BTCL. La comisión es de **`0.00001324`** por cada bloque minado de BTCL, que resulta de la diferencia de **`0.00001870-0.00000546`**.
 
 * Nuevamente dentro de la **`Electron Cash SLP`**, **`click derecho`** en la dirección de **`index 0`** y luego escoge **`copiar dirección`** de la ventana que se abre.
 
@@ -91,7 +91,7 @@ Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o
 
     * **`simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870`**
 
-* Ahora repite **`simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870`** en el mismo campo **`Pagar a`** muchas veces, por ejemplo unas 100 veces
+* Ahora repite **`simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870`** en el mismo campo **`Pagar a`** muchas veces, por ejemplo unas 100 veces.
 
 * Debería verse dela siguiente manera:
 
@@ -121,7 +121,7 @@ Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o
      
      - **`npm install npm@latest -g`** luego *Enter*.
 
-### 7. Incia la minería de BTCL
+### 7. Inicia la minería de BTCL
 
 * Dentro de la terminal del **`PowerShell`** escribe el comando:
 
@@ -131,7 +131,7 @@ Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o
 
 ### 8. Actualizando el Minero Mist
 
-* Si hay alguna actualización en el futuro, corre los siguientes comandos para mantener tu minero actualizado:
+* Si hay alguna actualización en el futuro, corre el siguiente comando para mantener tu minero actualizado:
 
     * **`git pull origin master`**
 
