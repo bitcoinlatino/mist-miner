@@ -34,26 +34,16 @@ Este tutorial es para empezar a minar BTCL en windows.
 - Descarga e installa **[Git](https://gitforwindows.org/)**
 - Descarga e installa **[Microsoft Visual Studio Community 2019](https://visualstudio.microsoft.com/es/)** con los paquetes por defecto **`Node.js`** y **`C++`** y con los componentes **`CMake, MSVC v.140 - VS 2015`**. Si el minero no funciona con estos paquetes, entonces necesita instalar componentes adicionales como **`MSVC v.142 VS 2019, C++ ATL, C++/CLI, Java Script Diagnostic y Python Panel`**.
 
+### 4. Descarga el mist-miner
 
-click Launchpad icon in the Dock
+* Ve a **`símbolo del sistema*`* o a **`PowerShell de Windowws`** y accede a la Unidad de disco local C mediante el comando:
+    - **`cd ..`** luego Enter.
+    - **`cd ..`** luego enter.
+* Una vez en a Unidad C copia y pega el siguiente comando:
+    -**`git clone https://github.com/blockparty-sh/mist-miner.git`**
+    -Esto descargará el **mist-miner** en la Unidad C de la PC.
 
-type Terminal in the search field
 
-then click Terminal
-
-### 2. Install homebrew
-
-Paste this into the terminal:
-
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-
-### 3. Install nodejs with homebrew
-
-brew install node
-
-### 4. Download mist-miner
-
-`git clone https://github.com/blockparty-sh/mist-miner.git`
 
 ### 5. Copy example.env file
 
