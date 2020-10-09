@@ -59,9 +59,9 @@ Este tutorial es para empezar a minar BTCL en windows.
 
 ### 6. Configura la Wallet para Minar BTCL en la `Electron Cash SLP Edition`
 
-* Abre la Electron Cash **`SLP Edition`** y crea una wallet normal; puedes colocarle un nombre relacionado con la moneda que vas a minar que es Bitcoin Latino BTCL. Recuerda que debes asegurarte de guardar tu **`frase semilla de 12 palabras`** ya que como todas las wallet de bitcoin cash y SLP esta es de no custodia.
+* Abre la **[`Electron Cash SLP Edition`](https://simpleledger.cash/project/electron-cash-slp-edition/)** y crea una wallet normal; puedes colocarle un nombre relacionado con la moneda que vas a minar que es Bitcoin Latino BTCL. Recuerda que debes asegurarte de guardar tu **`frase semilla de 12 palabras`** ya que como todas las wallet de bitcoin cash y SLP esta es de no custodia.
 
-https://simpleledger.cash/project/electron-cash-slp-edition/
+
 
 Inside the wallet Click on the "Addresses" pane
 
