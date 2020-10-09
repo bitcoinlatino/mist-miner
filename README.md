@@ -36,10 +36,11 @@ Este tutorial es para empezar a minar BTCL en windows.
 
 ### 4. Descarga el mist-miner
 
-* Ve a **`símbolo del sistema*`* o a **`PowerShell de Windowws`** y accede a la Unidad de disco local C mediante el comando:
+* Ve a **`símbolo del sistema`** o a **`PowerShell de Windows`** y accede a la Unidad de disco local C mediante el comando:
     - **`cd ..`** luego Enter.
     - **`cd ..`** luego enter.
 * Una vez en a Unidad C copia y pega el siguiente comando:
+
     -**`git clone https://github.com/blockparty-sh/mist-miner.git`**
     -Esto descargará el **mist-miner** en la Unidad C de la PC.
 
