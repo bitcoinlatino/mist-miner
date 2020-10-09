@@ -41,9 +41,9 @@ Este tutorial es para empezar a minar BTCL en windows.
     - **`cd ..`** luego *Enter*.
 * Una vez en a Unidad C copia y pega el siguiente comando en la terminal del símbolo del sistema de PowerShell:
 
-    -**`git clone https://github.com/blockparty-sh/mist-miner.git`** luego *Enter*.
+    - **`git clone https://github.com/blockparty-sh/mist-miner.git`** luego *Enter*.
     
-    -Esto descargará el **mist-miner** en la Unidad C de la PC.
+    - Esto descargará el **mist-miner** en la Unidad C de la PC.
 
 
 ### 5. Crea el archivo .env
@@ -54,7 +54,7 @@ Este tutorial es para empezar a minar BTCL en windows.
 
     - Luego de acceder a la **`carpeta mist-miner`** pega esto en la terminal del símbolo del sistema:
 
-    - **`cp example.env .env`** luego *Enter*.
+    - **`cp example.env .env`** luego *Enter*. Esto creará el **`archivo .env`** en la carpeta del minero para que configures la wallet donde recibirás los BTCL que comiences a minar.
 
 
 ### 6. Configura la Wallet para Minar BTCL en la `Electron Cash SLP Edition`
