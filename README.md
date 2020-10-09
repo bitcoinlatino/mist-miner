@@ -138,8 +138,9 @@ Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o
 
 ### 9. Configurando el Fastminer
 
-Aseguráte de tener la versión reciente de **`C++17-capable compiler y cmake`**. Los siguientes comandos asumen que **`cmake`** genera los archivos, 
-    $ cd fastmine
+Aseguráte de tener la versión reciente de **`C++17-capable compiler y cmake`**. Los siguientes comandos asumen que **`cmake`** genera los archivos, sin embargo busca en la carpeta de esta repo
+
+* cd fastmine
     $ cmake . && make
     $ cd ..
 
