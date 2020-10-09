@@ -22,7 +22,7 @@
 
 ## Introduction a la minería con el Minero Mist
 
-Esta es una continuación de la versión 0.0.2 del minero que se usa en Mistcoin www.mistcoin.org
+Esta es una continuación de la **`versión 0.0.2`** del minero que se usa en Mistcoin www.mistcoin.org
 
 ## Configuración del Minero Mist en Windows
 
