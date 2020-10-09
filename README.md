@@ -52,7 +52,7 @@ Este tutorial es para empezar a minar BTCL en windows.
 
     - **`cd mist-miner`** luego *Enter*.
 
-    - Luego de acceder a la **`carpeta mist-miner`** pega esto en la terminal del símbolo del sistema:
+    - Luego de acceder a la **`carpeta mist-miner`** pega en la terminal del símbolo del sistema:
 
     - **`cp example.env .env`** luego *Enter*. Esto creará el **`archivo .env`** en la carpeta del minero para que configures la wallet donde recibirás los BTCL que comiences a minar.
 
