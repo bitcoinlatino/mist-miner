@@ -32,7 +32,7 @@ Este tutorial es para empezar a minar BTCL en windows.
 
 - Descarga e installa **[NodeJS](https://nodejs.org/en/)**
 - Descarga e installa **[Git](https://gitforwindows.org/)**
-- Descarga e installa **[Git](https://gitforwindows.org/)**
+- Descarga e installa **[Microsoft Visual Studio Community 2019](https://visualstudio.microsoft.com/es/)** con los paquetes por defecto **`Node.js`** y **`C++`** y con los componentes **`CMake, MSVC v.140 - VS 2015`**. Si el minero no funciona con estos paquetes, entonces necesita instalar componentes adicionales como **`MSVC v.142 VS 2019, C++ ATL, C++/CLI, Java Script Diagnostic y Python Panel`**.
 
 
 click Launchpad icon in the Dock
