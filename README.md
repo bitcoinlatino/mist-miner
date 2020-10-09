@@ -79,33 +79,31 @@ Este tutorial es para empezar a minar BTCL en windows.
 
 ### 8. Coloca Fondos en BCH en la wallet de minería
 
-Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o fee por cada bloque minado exitosamente. La comisión es
+Para recibir la recompensa de la minería de BTCL necesitas pagar una comsión o fee por cada bloque minado exitosamente de BTCL. La comisión es de **`0.00001324`** por cada bloque minado de BTCL, que resulta de la diferencia de **`0.00001870-0.00000546`**.
 
 * Nuevamente dentro de la **`Electron Cash SLP`**, **`click derecho`** en la dirección de **`index 0`** y luego escoge **`copiar dirección`** de la ventana que se abre.
 
-* 
+* Abre o crea una nueva wallet (diferente a la de la minería) con la Electron Cash SLP, la cual tenga suficientes fondos en BCH disponibles.
 
-Open a different wallet which has BCH available using Electron Cash SLP
+* Ve hasta el submenú **`Enviar`** y en el campo **`Pagar a`** pega la dirección de tu wallet de minería; la que acabas de copiar en el paso anterior.
 
-Go to the "Send" pane
+* Luego añade la cantidad a enviar de 0.00001870 BCH, debe verse de la siguiente manera:
 
-Inside the "Pay to" field, paste the address and then add the amount like this:
+    * **`simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870`**
 
-`simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870`
+* Ahora repite **`simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870`** en el mismo campo **`Pagar a`** muchas veces, por ejemplo unas 100 veces
 
-Now copy everything in the "Pay to" field and paste it many more times, I did ~100
+* Debería verse dela siguiente manera:
 
-It should look like this:
-
-```
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
-```
+    ```
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    simpleledger:qpasd8a7sdasdjkasd7as7dd,0.00001870
+    ```
 
 In the "BCH Amount" field put some small amount of BCH (like 0.0001), this wont be used but was needed for me to make it work
 
