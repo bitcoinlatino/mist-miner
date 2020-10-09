@@ -18,7 +18,7 @@
 
     - **TOKEN_START_BLOCK_V1**=`655223`
 
-    - **`TOKEN_ID_V1`**=`"20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a"`
+    - **TOKEN_ID_V1**=`"20e8e13347a76f6041bf7d31b04a7bbb7e2deb5d95e15ae8619179b3552ca02a"`
 
 ## Introduction a la minería con el Minero Mist
 
@@ -26,9 +26,14 @@ Esta es una continuación de la versión 0.0.2 del minero que se usa en Mistcoin
 
 ## Configuración del Minero Mist en Windows
 
+Este tutorial es para empezar a minar BTCL en windows.
+
 ### 1.Instala los Paquetes
 
-- 
+- Descarga e installa **[NodeJS](https://nodejs.org/en/)**
+- Descarga e installa **[Git](https://gitforwindows.org/)**
+- Descarga e installa **[Git](https://gitforwindows.org/)**
+
 
 click Launchpad icon in the Dock
 
