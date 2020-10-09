@@ -45,16 +45,15 @@ Este tutorial es para empezar a minar BTCL en windows.
     -Esto descargará el **mist-miner** en la Unidad C de la PC.
 
 
+### 5. Crea el archivo .env
 
-### 5. Copy example.env file
+* Ve a la carpeta del minero que recién descargaste, sin salir del símbolo del sistema, escribiendo el siguiente comando:
 
-Go into the downloaded directory
+    - **`cd mist-miner`** luego *Enter*.
 
-`cd mist-miner`
+    - Luego de acceder a la **`carpeta mist-miner`** pega esto en la terminal del símbolo del sistema:
 
-Paste this into the terminal:
-
-`cp example.env .env`
+    - **`cp example.env .env`** luego *Enter*.
 
 ### 6. Install the dependencies for the project
 
